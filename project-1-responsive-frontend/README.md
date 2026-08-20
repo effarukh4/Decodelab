@@ -86,6 +86,4 @@ Mobile (default) → Tablet (768px+) → Desktop (1024px+)
 - [ ] Keyboard-only navigation
 - [ ] Lighthouse: performance / accessibility / LCP / CLS
 
-## Notes
 
-Images in `assets/images/` are lightweight placeholders — swap them for real assets before shipping. This project is intentionally frontend-only; no React, Node.js, backend, or API is included unless a separate requirement calls for it.
