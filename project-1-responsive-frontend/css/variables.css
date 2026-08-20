@@ -1,0 +1,46 @@
+:root {
+    /* Colors */
+    --color-primary: #a47764;      /* Mocha Mousse */
+    --color-primary-dark: #8a6350;
+    --color-secondary: #c5e7f0;    /* Ethereal Blue */
+    --color-background: #f2f0ea;   /* Moonlit Grey / warm cream */
+    --color-surface: #ffffff;
+    --color-text: #2b2724;
+    --color-muted: #6b6560;
+    --color-white: #ffffff;
+    --color-border: #e3ddd3;
+
+    /* Typography */
+    --font-heading: "Montserrat", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+
+    --fs-h1: clamp(2rem, 1.4rem + 2.5vw, 3.5rem);
+    --fs-h2: clamp(1.5rem, 1.2rem + 1.5vw, 2.25rem);
+    --fs-h3: clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
+    --fs-body: clamp(1rem, 0.95rem + 0.2vw, 1.0625rem);
+    --fs-small: 0.875rem;
+
+    /* Layout */
+    --container-width: 1060px;
+
+    /* Spacing */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 40px;
+    --spacing-xl: 64px;
+    --spacing-xxl: 96px;
+
+    /* Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+
+    /* Shadow */
+    --shadow-sm: 0 1px 3px rgba(43, 39, 36, 0.08);
+    --shadow-md: 0 8px 24px rgba(43, 39, 36, 0.10);
+
+    /* Motion */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+}
