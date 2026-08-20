@@ -1,0 +1,13 @@
+{
+  "name": "full-stack-project-3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full Stack Project 3 - Database Integration (CRUD) with React, Express, and MongoDB",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "author": "",
+  "license": "MIT"
+}
